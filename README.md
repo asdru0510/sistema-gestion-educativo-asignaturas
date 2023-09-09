@@ -16,9 +16,9 @@
     agregar usuarios a Bootcamps, obtener Bootcamps por ID y 
     obtener todos los usuarios incluyendo los Bootcamps. 
     
-    Se pùede acceder a la API a través de un navegador web o aplicacion POSTMAN.
+    Se puede acceder a la API a través de un navegador web o aplicacion POSTMAN.
 
-##Stack usado: npm, express, nodeJS, Javascript, SQL (postgresql), ORM (sequelize).
+## Stack usado: npm, express, nodeJS, Javascript, SQL (postgresql), ORM (sequelize).
 
 ## Instalando 🚀🚀
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local 
@@ -71,6 +71,7 @@ Para el Bootcamp:
 |    GET      |    8    |  api/bootcamps/:id                            | 
 |    GET      |    9    |  api/bootcamps                                | 
 <br><br>
+
 ##  🚀🚀🚀 ENJOY 🚀🚀🚀
 <br>
 
