@@ -1,17 +1,17 @@
-***API Gestión de bootcamps(cursos) y usuarios(Alumnos), CRUD solo back-end***
+***API Gestión de bootcamps(cursos, asignaturas, materias, ramos) y usuarios(Alumnos), CRUD solo back-end***
 
 ## Comenzando 🚀
---La API que se describe en este documento es una aplicación Node.js que permite gestionar cursos (Bootcamp) de una empresa de adiestramiento (o instituto). 
+--La API que se describe en este documento es una aplicación Node.js que permite gestionar bootcamps de una empresa de adiestramiento (instituto, universidad, centro de formación). 
 
-    La API cuenta con endpoints para crear, obtener, actualizar y eliminar usuarios y Bootcamps, así como para agregar usuarios a Bootcamps y obtener información detallada de los mismos. 
-    
+    La API cuenta con endpoints para crear, obtener, actualizar y eliminar usuarios y Bootcamps, así como para agregar usuarios a Bootcamps y obtener información detallada de los mismos.
+
     La API permiten realizar las siguientes acciones para los usuarios: crear y guardar usuarios, obtener los Bootcamp de un usuario, obtener todos los usuarios incluyendo los Bootcamp, actualizar usuarios por ID y eliminar usuarios por ID. Para los Bootcamps. 
     Para los Bootcamps permiten crear y guardar nuevos Bootcamps, agregar usuarios a Bootcamps, obtener Bootcamps por ID y obtener todos los usuarios incluyendo los Bootcamps. La API está documentada y se puede acceder a ella a través de un navegador web o aplicacion POSTMAN.
 
 ##Stack usado: npm, express, nodeJS, Javascript, SQL (postgresql), ORM (sequelize).
 
 ## Instalando 🚀🚀
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local 
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local 
 
 
 1. Clona el repositorio del proyecto desde GitHub (comando git clone).
@@ -45,9 +45,11 @@ Para el Bootcamp:
 6 • Crear y guardar un nuevo Bootcamp.                  NOTA: Enviarle en el body {"title":"titulo_bootcamp", "cue":número de sesiones(clases), "description":"descripción_bootcamp"}
 7 • Agregar un Usuario a un Bootcamp.                   NOTA: Reemplazar ":userId" por el id del usuario a agregar y ":bootcampId" por el id del bootcamp (materia o curso)
 8 • Obtener un Bootcamp por id.                         NOTA: Reemplazar ":id" por el id a consultar
-9 • Obtener todos los Usuarios incluyendo los Bootcamp. 
+9 • Obtener todos los Usuarios incluyendo los Bootcamp.
 
-| Metodo HTTP | Función |                 Endpoint                      | 
+
+| Metodo HTTP | Función |  Endpoint                      | 
+| ------------ | ------------ | ------------ |
 |    POST     |    1    |  api/users                                    | 
 |    GET      |    2    |  api/users/:id                                | 
 |    GET      |    3    |  api/users                                    | 
@@ -58,6 +60,9 @@ Para el Bootcamp:
 |    GET      |    8    |  api/bootcamps/:id                            | 
 |    GET      |    8    |  api/bootcamps                                | 
 
-
 ##  🚀🚀🚀 ENJOY 🚀🚀🚀
 
+Despedida
+¡Gracias por visitar nuestro proyecto! Esperamos que hayas disfrutado explorando nuestro sitio web. Si tienes alguna pregunta, sugerencia o comentario, no dudes en ponerte en contacto en mi perfil en la sección de "Redes Sociales" puedes ubicar nuestros datos de contacto. Estamos aquí para ayudar y recibir tus comentarios.
+
+¡Que tengas un gran día y esperamos verte nuevamente pronto
