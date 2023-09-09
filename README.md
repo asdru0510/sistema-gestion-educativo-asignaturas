@@ -69,7 +69,7 @@ Para el Bootcamp:
 |    POST     |    6    |  api/bootcamps                                |
 |    GET      |    7    |  api/users/add/:userId/bootcamps/:bootcampId  |
 |    GET      |    8    |  api/bootcamps/:id                            | 
-|    GET      |    8    |  api/bootcamps                                | 
+|    GET      |    9    |  api/bootcamps                                | 
 <br><br>
 ##  🚀🚀🚀 ENJOY 🚀🚀🚀
 <br>
