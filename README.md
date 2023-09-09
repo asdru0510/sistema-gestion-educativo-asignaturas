@@ -3,7 +3,7 @@
 ## Comenzando 🚀
 --La API que se describe en este documento es una aplicación Node.js que permite gestionar bootcamps de una empresa de adiestramiento (instituto, universidad, centro de formación). 
 
-    La API cuenta con endpoints para: 
+    ```La API cuenta con endpoints para: 
     Crear, obtener, actualizar y eliminar usuarios y Bootcamps, 
     así como para agregar usuarios a Bootcamps y 
     obtener información detallada de los mismos.
@@ -16,9 +16,9 @@
     agregar usuarios a Bootcamps, obtener Bootcamps por ID y 
     obtener todos los usuarios incluyendo los Bootcamps. 
     
-    Se pùede acceder a la API a través de un navegador web o aplicacion POSTMAN.
+    Se puede acceder a la API a través de un navegador web o aplicacion POSTMAN.```
 
-##Stack usado: npm, express, nodeJS, Javascript, SQL (postgresql), ORM (sequelize).
+## Stack usado: npm, express, nodeJS, Javascript, SQL (postgresql), ORM (sequelize).
 
 ## Instalando 🚀🚀
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local 
